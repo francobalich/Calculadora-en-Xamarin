@@ -6,10 +6,9 @@
     <StackLayout Orientation="Vertical">
 
         <Label Text="Calculadora" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        <Entry Placeholder="Ingrese valor 1" x:Name="txtN1"/>
-        <Entry Placeholder="Ingrese valor 2" x:Name="txtN2"/>
-        <Label Text="Seleccione operacion" HorizontalOptions="Center" FontSize="Medium"/>
-        <Picker x:Name="pkOper" SelectedIndexChanged="pkOper_SelectedIndexChanged"/>
+        <Entry Placeholder="Ingrese un primer valor" x:Name="txtN1"/>
+        <Entry Placeholder="Ingrese un segundo valor" x:Name="txtN2"/>
+        <Picker x:Name="pkOper" SelectedIndexChanged="pkOper_SelectedIndexChanged" Title="Seleccione operación"/>
         <Label Text="----" FontSize="Medium" x:Name="lblRes"/>
 
     </StackLayout>
